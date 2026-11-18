@@ -1,9 +1,5 @@
 from database.database import init_db
-import complaints.complaint
-print(">>> COMPLAINT CLASS LOADED FROM:", complaints.complaint.__file__)
-
-from database.database import init_db
-from complaints.complaint_view import render_complaint_app
+from complaint.complaint_view import render_complaint_app
 
 
 def main():
